@@ -1,0 +1,289 @@
+.main__gridContainer {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  grid-template-rows: 320px 320px 320px;
+  justify-content: space-evenly;
+  padding: 2%;
+  grid-row-gap: 30px;
+}
+
+.main__gridContainer1 {
+  display: grid;
+  grid-template-columns: 650px 500px;
+  justify-content: space-evenly;
+  padding: 2%;
+  line-height: 23px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  background-color: #0d505a;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  background-image: url(../icons/Peros-y-gatos.jpg);
+}
+.header__logoPrincipal {
+  width: 65vh;
+  margin: 4%;
+}
+
+.nav1__menuPrincipal ul {
+  background-color: #0f899c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: auto;
+  font-family: "Concert One", cursive;
+  font-size: 150%;
+  padding: 20px;
+}
+.nav1__menuPrincipal a {
+  color: white;
+  text-decoration: none;
+}
+.nav1__menuPrincipal .subMenu {
+  position: absolute;
+  background-color: #17a2b8;
+  right: 1;
+  font-size: 80%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.nav1__menuPrincipal .subMenu li {
+  display: flex;
+  text-align: left;
+  padding: 7%;
+  color: white;
+}
+
+.Banner img {
+  width: 100%;
+  box-shadow: 15px 15px 15px #999;
+}
+
+.main__gridContainer div {
+  text-align: center;
+  color: black;
+  padding: 2%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 100%;
+  background-color: rgba(58, 231, 231, 0.5);
+  box-shadow: 18px 18px 18px #999;
+}
+.main__gridContainer div h4 {
+  color: #0F899C;
+}
+.main__gridContainer img {
+  width: 40%;
+  padding: 2%;
+}
+
+.main__gridContainer1 div {
+  text-align: left;
+  color: black;
+  padding: 2%;
+  font-family: "Arimo", sans-serif;
+  font-size: 98%;
+  background-color: rgba(50, 54, 54, 0.267);
+  box-shadow: 15px 15px 15px #777474;
+  border-radius: 12px;
+}
+
+.main__gridContainer2 {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.main__gridContainer2 div {
+  text-align: center;
+  color: #f7f3f3;
+  padding: 10%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 100%;
+  background-color: #503a3a93;
+}
+
+.gridContainer3 {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  justify-content: space-evenly;
+  padding: 2%;
+  grid-row-gap: 10px;
+}
+.gridContainer3 div {
+  text-align: center;
+  color: #e9e6e6;
+  padding: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  background-color: #282b31;
+}
+
+.containerProductos {
+  width: 60%;
+  margin: auto;
+}
+
+.staff {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 1%;
+  background: linear-gradient(rgba(19, 1, 1, 0.35), rgba(10, 1, 1, 0.446)), url(../img/nosotros.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  font-size: 120%;
+}
+
+.titulo h3 {
+  padding: 30%;
+  color: white;
+  text-align: center;
+  font-size: 170%;
+  font-family: "Fredoka One", cursive;
+}
+
+.line {
+  width: 60%;
+  margin: auto;
+}
+.line h2 {
+  padding: 1%;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact_form h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #1ba2c4;
+}
+.contact_form h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #290a71;
+}
+.contact_form ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+.contact_form ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+.contact_form input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #27b0c2;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.contact_form textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #27b0c2;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.contact_form label {
+  display: block;
+  float: center;
+}
+.contact_form label span {
+  color: #27b0c2;
+}
+.contact_form button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #27b0c2;
+  border-color: #27b0c2;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+.contact_form .aviso {
+  font-size: 20px;
+  color: #0e0e0e;
+}
+.contact_form .aviso p {
+  color: #fff;
+}
+.contact_form p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+.contact_form .formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+.contact_form .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.errorPage h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: red;
+}
+.errorPage img {
+  width: 180vh;
+  margin: 5%;
+}
+.errorPage p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+.footer p {
+  color: white;
+  margin-bottom: 10px;
+}
+.footer__redes {
+  display: flex;
+}
+.footer__redes img {
+  width: 32px;
+  margin: 0 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
